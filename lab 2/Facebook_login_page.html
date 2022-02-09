@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook</title>
+  <style>
+    body{
+      background-color: #f0f2f5;
+    }
+
+    #logo{
+      width: 302px;
+      height: 106px;
+      position: relative;
+      top: 170px;
+      left: 190px;
+    }
+
+    #description {
+      font-size: 28px;
+      font-family:Arial, Helvetica,  sans-serif;
+      position: relative;
+      left: 220px;
+      top: 130px;
+    }
+
+    .right-part{
+      position: relative;
+      top: -130px;
+      right: -800px;
+      display: inline-block;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 20%);
+      box-sizing: border-box;
+      height: 345px;
+      width: 396px;
+      text-align: center;
+      padding-bottom: 24px;
+      background-color: white;
+      font-family:  Arial, Helvetica, sans-serif;
+    }
+
+    .login {
+      font-size: 17px;
+      padding: 12px;
+      width: 330px;
+      height: 22px;
+      display: inline-block;
+      color: #1d2129;
+      margin-top: 17px;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+    }
+
+    #enter {
+      background-color: #1877f2;
+      color: white;
+      margin-top: 14px;
+      width: 355px;
+      height: 48px;
+      font-size: 20px;
+      /*font-weight: bold;*/
+      border: none;
+      border-radius: 6px;
+      line-height: 50px;
+    }
+
+    #enter:hover{
+      background-color: #2561ec;
+    }
+
+    #forgotten-password{
+      color: #1877f2;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      margin: 20px 16px;
+      line-height: 50px;
+    }
+
+    #forgotten-password:hover{
+      text-decoration: underline;
+    }
+
+    #line{
+      align-items: center;
+      border-bottom: 1px solid #dadde1;
+      width: 360px;
+      margin: 0px 0px 27px 16px;
+    }
+
+    #new-account{
+      color: white;
+      background-color: #42b72a;
+      border-radius: 6px;
+      width: 230px;
+      height: 48px;
+      font-size: 17px;
+      /*font-weight: bold;*/
+      border: none;
+    }
+
+    #new-account:hover{
+      background-color: #00ae00;
+    }
+
+    #abroad-text{
+      position: relative;
+      top: -130px;
+      right: -290px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    #link-create-page{
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+    }
+
+    #link-create-page:hover{
+      text-decoration: underline;
+    }
+
+    .footer{
+      position: relative;
+      background-color: white;
+      color: #848484;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      
+
+    }
+
+    #russian {
+      position: relative;
+      bottom: -5px;
+      left: 200px;
+    }
+
+    .languages a{
+      color: #848484;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .languages a:hover{
+      text-decoration: underline;
+    }
+
+    #plus {
+      position: relative;
+      bottom: -5px;
+      right: 10px;
+      width: 23px;
+      height: 18px;
+      border: 1px solid #dadde1;
+      border-radius: 2px;
+      background-color: #f0f2f5;
+    }
+
+    #plus:hover{
+      background-color: darkgray;
+    }
+
+
+    #second-line{
+      align-items: center;
+      border-bottom: 1px solid #dadde1;
+      width: 900px;
+      position: relative;
+      bottom: -5px;
+      left: 200px;
+    }
+
+
+
+    .footer-info a{
+      color: #848484;
+      text-decoration: none;
+      position: relative;
+      bottom: -15px;
+      left: 190px;
+      padding: 20px 20px 10px 10px;
+      line-height: 15px;
+    }
+
+    .footer-info a:hover{
+      text-decoration: underline;
+    }
+
+    #meta{
+      position: relative;
+      bottom: -15px;
+      left: 200px;
+    }
+  </style>
+</head>
+
+<body>
+<img id="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+<p id="description">Facebook помогает вам всегда <br>
+  оставаться на связи и общаться со <br>
+  своими знакомыми.</p>
+
+
+<div class="right-part">
+  <input class="login" type="text" placeholder="Электронный адрес или номер телефона"> <br>
+  <input class="login" type="text" placeholder="Пароль"> <br>
+  <button id="enter">Bxoд</button>
+  <a id="forgotten-password" href="https://ru-ru.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" >Забыли пароль?</a>
+  <div id="line"></div>
+  <button id="new-account">Создать новый аккаунт</button>
+  </div>
+  <p id="abroad-text"><a id="link-create-page" href="https://ru-ru.facebook.com/pages/create/?ref_type=registration_form">Создать Страницу</a> знаменитости, музыкальной группы <br> или компании.</p>
+
+  <div class="footer">
+      <div class="languages">
+        <p id="russian">Русский
+        <a href="https://www.facebook.com/">English(US)</a>
+        <a href="https://tr-tr.facebook.com/">Türkçe</a>
+        <a href="https://id-id.facebook.com/">Bahasa Indonesia</a>
+        <a href="https://zh-cn.facebook.com/">中文(简体)</a>
+        <a href="https://kk-kz.facebook.com/">Қазақша</a>
+        <a href="https://de-de.facebook.com/">Deutsch</a>
+        <a href="https://ko-kr.facebook.com/">한국어</a>
+        <a href="https://sq-al.facebook.com/">Shqip</a>
+        <a href="https://es-la.facebook.com/">Español</a>
+        <a href="https://pt-br.facebook.com/">Português (Brasil)</a>
+         <a href="https://ru-ru.facebook.com/"><img id="plus" src="plus.png" alt="Plus sign"></a>
+        </p>
+      </div>
+    <div id="second-line"></div>
+    <div  class="footer-info">
+      <a href="https://ru-ru.facebook.com/reg/">Регистрация</a>
+      <a href="https://ru-ru.facebook.com/">Вход</a>
+      <a href="https://ru-ru.facebook.com/">Messenger</a>
+      <a href="https://ru-ru.facebook.com/">Facebook Lite</a>
+      <a href="https://ru-ru.facebook.com/">Watch</a>
+      <a href="https://ru-ru.facebook.com/">Места</a>
+      <a href="https://ru-ru.facebook.com/">Игры</a>
+      <a href="https://ru-ru.facebook.com/">Marketplace</a>
+      <a href="https://ru-ru.facebook.com/">Facebook Pay</a>
+      <a href="https://ru-ru.facebook.com/">Oculus</a>
+      <a href="https://ru-ru.facebook.com/">Portal</a>
+      <a href="https://ru-ru.facebook.com/">Instagram</a>
+      <a href="https://ru-ru.facebook.com/">Bulletin</a> <br>
+      <a href="https://ru-ru.facebook.com/">Местные</a>
+      <a href="https://ru-ru.facebook.com/">Благотворительные акции</a>
+      <a href="https://ru-ru.facebook.com/">Услуги</a>
+      <a href="https://ru-ru.facebook.com/">Центр информации о голосовании</a>
+      <a href="https://ru-ru.facebook.com/">Группы</a>
+      <a href="https://ru-ru.facebook.com/">Информация</a>
+      <a href="https://ru-ru.facebook.com/">Создать рекламу</a>
+      <a href="https://ru-ru.facebook.com/">Создать страницу</a> <br>
+      <a href="https://ru-ru.facebook.com/">Разработчикам</a>
+      <a href="https://ru-ru.facebook.com/">Вакансии</a>
+      <a href="https://ru-ru.facebook.com/">Конфиденциальность></a>
+      <a href="https://ru-ru.facebook.com/">Файлы cookie</a>
+      <a href="https://ru-ru.facebook.com/">Рекламные предпочтения</a>
+      <a href="https://ru-ru.facebook.com/">Условия использования</a>
+      <a href="https://ru-ru.facebook.com/">Справка</a> <br>
+      <p id="meta">Мета © 2022</p>
+      </div>
+
+
+
+  </div>
+
+</body>
+</html>
