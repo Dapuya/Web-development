@@ -23,6 +23,7 @@
       border-radius: 1px;
       background-color: white;
       width: 370px;
+      height: 380px;
       text-align: center;
       font-family: Helvetica, Arial, sans-serif
     }
@@ -53,13 +54,14 @@
       width: 280px;
       height: 30px;
       margin-bottom: 20px;
+
     }
 
     #line1{
       align-items: center;
       border-bottom: 1px solid #dddfe2;
       width: 100px;
-      margin: 10px 20px 20px 0px;
+      margin: 0px 20px 20px 0px;
       display: inline-block;
     }
 
@@ -80,6 +82,124 @@
       display: inline-block;
     }
 
+    #fblogo{
+      width: 17px;
+      display: flex;
+      margin-left: 90px;
+    }
+
+    #facebookenter{
+      position: relative;
+      top: -18px;
+      right: -70px;
+      text-decoration: none;
+      color:#385185;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    #forgotten-password{
+      position: relative;
+      top: 25px;
+      right: 90px;
+      /*margin: 0% auto;*/
+      text-decoration: none;
+      color:#385185;
+      font-size: 13px;
+    }
+
+    .box2{
+      position: relative;
+      bottom: 630px;
+      left: 740px;
+      border: 1px solid #dadde1;
+      border-radius: 1px;
+      background-color: white;
+      width: 370px;
+      height: 60px;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .box2 p{
+      margin-top: 20px;
+    }
+
+    .box2 a{
+      color: #3095ea;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #download-app{
+      position: relative;
+      bottom: 630px;
+      left: 840px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    #appstore{
+      position: relative;
+      bottom: 630px;
+      left: 770px;
+      display: inline-block;
+      width: 150px;
+      margin-right: 5px;
+    }
+
+    #googlepay{
+      position: relative;
+      bottom: 630px;
+      left: 770px;
+      display: inline-block;
+      width: 150px;
+    }
+
+    .footer{
+      position: relative;
+      top: -550px;
+      left: 10px;
+      text-align: center;
+      color: #58606e;
+      font-size: 13px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .footer a{
+      font-family: Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      color: #58606e;
+      padding: 5px;
+      line-height: 25px;
+      font-size: 13px;
+    }
+
+    .footer a:hover{
+      text-decoration: underline;
+    }
+
+    #select-language{
+      position: relative;
+      padding: 10px;
+      top: 3px;
+      left: -120px;
+      display: inline;
+      border: none;
+      color: #58606e;
+      background-color: #fafafa;
+      margin-top: 10px;
+    }
+
+
+    #last{
+      position: relative;
+      top: -36px;
+      left: 25px;
+    }
+
   </style>
 </head>
 <body>
@@ -93,18 +213,18 @@
   <div id="line1"></div>
   <p id="or">ИЛИ</p>
   <div id="line2"></div>
-  <img src="fb-logo.png" alt="fblogo">
-  <a href="Facebook_login_page.html">Войти через Facebook</a>
+  <img id="fblogo" src="fb-logo.png" alt="fblogo">
+  <a id="facebookenter" href="Facebook_login_page.html">Войти через Facebook</a>
   <a id="forgotten-password" href="https://ru-ru.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" >Забыли пароль?</a>
 </div>
 <div class="box2">
   <p>У вас еще нет аккаунта? <a href="https://www.instagram.com/accounts/emailsignup/" >Зарегистрироваться</a></p>
 </div>
 
-<p id="download-app">Установите приложение</p>
+<p id="download-app">Установите приложение.</p>
 
-<img id="appstore" src="appstore.png" alt="appstore">
-<img id="googlepay" src="googlepay.png" alt="googlepay">
+<a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img id="appstore" src="appstore.png" alt="appstore"></a>
+<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=loginPage&ig_mid=FF6C3D56-2A41-4983-8A6C-55D4FEDA0ACF&utm_content=lo&utm_medium=badge"><img id="googlepay" src="googlepay.png" alt="googlepay"></a>
 
 <div class="footer">
   <a href="">Meta</a>
