@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5baed914-96e1-45c0-99d9-6a6a95e8c3db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_Event_invite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_Ocean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_border_margin_padding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_div&amp;span.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_float.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_layout_position_z-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_text_properties_Blog_project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_text_properties_font_formats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_text_properties_fonts1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/CSS_text_properties_text_size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_CSS_classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_CSS_color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_CSS_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_HTML_Poem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_HTML_images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_HTML_lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/Intro_to_HTML_tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_CSS_selectors_classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_CSS_selectors_classes_of_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_CSS_selectors_descendant_selectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_CSS_selectors_pseudo_classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_HTML_tags_Recipe_book.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_HTML_tags_link_to_the_link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_HTML_tags_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/More_HTML_tags_tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Khan Academy/project_Travel_to.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS_link_to_stylesheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS_site_header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS_slack_cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS_using_attributes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/CSS_writing_selectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Udacity/HTML.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24lwylWUslH1bnCV0BMPGMmOXgS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5baed914-96e1-45c0-99d9-6a6a95e8c3db" name="Changes" comment="" />
+      <created>1644218740802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644218740802</updated>
+      <workItem from="1644218744415" duration="1448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
