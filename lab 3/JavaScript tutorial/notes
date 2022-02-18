@@ -1,0 +1,13 @@
+The <script> tag contains JavaScript code which is automatically executed when the browser processes the tag.
+<script> attributes:
+<script type=...>
+
+If we have a lot of JavaScript code, we can put it into a separate file.
+Script files are attached to HTML with the src attribute:
+        <script src="/path/to/script.js"></script>
+If src is set, the script content is ignored.
+We must choose either an external <script src="…"> or a regular <script> with code.
+
+
+A BigInt value is created by appending n to the end of an integer:
+
