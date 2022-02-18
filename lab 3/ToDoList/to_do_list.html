@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To do</title>
+  <style>
+    body{
+      background-color: #e7eef1;
+      text-align: center;
+      font-family: sans-serif;
+      color: #424141;
+      padding: 20px;
+    }
+
+    .main{
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+
+    h1{
+      position: relative;
+      top: 70px;
+    }
+
+    /*.input{*/
+    /*  margin-top: 10px;*/
+    /*}*/
+
+    #NewTask{
+      margin-top: 80px;
+      width: 450px;
+      background-color: white;
+      text-align: left;
+      padding: 5px;
+      padding-left: 20px;
+      box-shadow: 4px 4px rgb(182, 182, 201);
+      border: 10px;
+      border-radius: 5px;
+    }
+
+
+    #Add{
+      margin-left: 15px;
+      height: 27px;
+      background-color: #2e9ce5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #Add:hover{
+      background-color: #005ede;
+    }
+
+    #RemoveAll{
+      margin-top: 20px;
+      height: 29px;
+      border: none;
+      border-radius: 5px;
+      background-color: #de8a19;
+      color: white;
+    }
+
+    #RemoveAll:hover{
+      background-color: #de7234;
+    }
+
+    #bin{
+      width: 23px;
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+<div class="main">
+  <div id="Title"><h1>ToDo List</h1></div>
+  <div class="input">
+    <input id="NewTask" type="text" placeholder="New Task">
+    <button id="Add" type="button">Add</button>
+  </div>
+
+  <div class="items">
+
+  </div>
+
+  <button id="RemoveAll" type="button">Remove all</button>
+  <script src="todo.js"></script>
+</div>
+
+
+</body>
+</html>

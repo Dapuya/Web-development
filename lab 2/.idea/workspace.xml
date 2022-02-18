@@ -4,8 +4,6 @@
     <list default="true" id="132a739b-e38a-4e43-89e2-60990b1b33ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram.html" beforeDir="false" afterPath="$PROJECT_DIR$/Instagram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Microsoft.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,11 @@
       <workItem from="1644497164190" duration="1321000" />
       <workItem from="1644502390696" duration="11187000" />
       <workItem from="1644563853704" duration="1673000" />
-      <workItem from="1644571283839" duration="15382000" />
+      <workItem from="1644571283839" duration="16051000" />
+      <workItem from="1644663226829" duration="566000" />
+      <workItem from="1645088691152" duration="1296000" />
+      <workItem from="1645102272885" duration="9000" />
+      <workItem from="1645195148024" duration="356000" />
     </task>
     <servers />
   </component>
