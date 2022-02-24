@@ -14,7 +14,7 @@
 
     .main{
       margin-left: 30px;
-      margin-top: 20px;
+      margin-top: 21px;
     }
 
     h1{
@@ -22,11 +22,7 @@
       top: 70px;
     }
 
-    /*.input{*/
-    /*  margin-top: 10px;*/
-    /*}*/
-
-    #NewTask{
+    .NewTask{
       margin-top: 80px;
       width: 450px;
       background-color: white;
@@ -38,8 +34,7 @@
       border-radius: 5px;
     }
 
-
-    #Add{
+    .add{
       margin-left: 15px;
       height: 27px;
       background-color: #2e9ce5;
@@ -48,27 +43,65 @@
       border-radius: 5px;
     }
 
-    #Add:hover{
+    .add:hover{
       background-color: #005ede;
     }
 
-    #RemoveAll{
-      margin-top: 20px;
-      height: 29px;
+    .tasks{
+      margin: 15px 0px 0px -80px;
+    }
+
+    .task{
+      width: 500px;
+      height: 1px;
+      border: 1px solid #dbdbdb;
+      padding: 20px;
+      border-radius: 7px;
+      margin-left: 450px;
+      margin-top: 10px;
+    }
+
+    .task-checkbox{
+      -webkit-appearance: none;
+      border: 1px solid #cacece;
+      padding: 8px;
+      display: inline;
+      margin: 0px 10px 0px 0px;
+      position: relative;
+      float: left;
+    }
+
+    .task-checkbox:checked{
+      background-color: #5294E2;
+      border: 1px solid;
+    }
+
+
+    .bin{
+      width: 23px;
+      float: right;
+    }
+
+    .task-new{
       border: none;
-      border-radius: 5px;
-      background-color: #de8a19;
+      display: inline-block;
+      width: 85%;
+      padding-left: 15px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      text-decoration: none;
+    }
+
+    .task-checkbox:checked::after{
+      content: '\2714';
+      position: absolute;
+      top: 0px;
+      left: 3px;
       color: white;
     }
 
-    #RemoveAll:hover{
-      background-color: #de7234;
-    }
-
-    #bin{
-      width: 23px;
-      margin-top: 20px;
-      padding-top: 10px;
+    .task-checkbox:checked + span{
+      text-decoration: line-through;
     }
 
   </style>
@@ -80,16 +113,20 @@
 <div class="main">
   <div id="Title"><h1>ToDo List</h1></div>
   <div class="input">
-    <input id="NewTask" type="text" placeholder="New Task">
-    <button id="Add" type="button">Add</button>
+    <input class="NewTask" type="text" placeholder="New Task">
+    <button class="add" onclick="newTask()">Add</button>
   </div>
 
-  <div class="items">
-
+  <div class="tasks">
+    <div class="task">
+      <label class="task-new">
+        <input type="checkbox" class="task-checkbox">
+        <span>WebDev lab 3</span>
+      </label>
+      <img class="bin" src="bin.png" alt="bin">
+    </div>
   </div>
-
-  <button id="RemoveAll" type="button">Remove all</button>
-  <script src="todo.js"></script>
+  <script type="text/javascript" src="to_do.js"></script>
 </div>
 
 
