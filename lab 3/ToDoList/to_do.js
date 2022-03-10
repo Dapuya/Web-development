@@ -1,5 +1,5 @@
-let tasks = document.querySelector('.items');
-let input = document.querySelector('.input');
+let tasks = document.querySelector('.tasks');
+let input = document.querySelector('.NewTask');
 let addbutton = document.querySelector('.Add');
 
 let task = document.querySelectorAll('.task');
@@ -25,6 +25,10 @@ function newTask(){
     image.src = "bin.png";
     image.addEventListener('click', remove);
 
+    let copiedItem = document.createElement("div");
+    copiedItem.addEventListener('click', copyItem(div, label, check, span, image, copiedItem));
+
+
     tasks.appendChild(div);
     div.appendChild(label);
     label.appendChild(check);
@@ -35,7 +39,30 @@ function newTask(){
   }
 }
 
-function remove(){
+function copyItem(div, label, check, span, image){
+  this.div = div;
+  div.className = "task";
+
+  this.label = label;
+  label.className = "task-new";
+
+  this.check = check;
+  check.type = "checkbox";
+  check.className = "task-checkbox";
+
+  this.span = span;
+  span.innerHTML = span.value;
+
+  this.image = image;
+  image.className = "bin";
+  image.src = "bin.png";
+  image.addEventListener('click', remove);
+
+
+}
+
+
+function remove() {
   this.parentNode.remove();
 }
 

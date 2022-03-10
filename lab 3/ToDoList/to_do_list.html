@@ -56,6 +56,7 @@
       height: 1px;
       border: 1px solid #dbdbdb;
       padding: 20px;
+      padding-bottom: 40px;
       border-radius: 7px;
       margin-left: 450px;
       margin-bottom: 10px;
@@ -82,6 +83,7 @@
       float: right;
     }
 
+
     .task-new{
       border: none;
       display: inline-block;
@@ -104,6 +106,8 @@
       text-decoration: line-through;
     }
 
+
+
   </style>
 </head>
 
@@ -123,11 +127,12 @@
         <input type="checkbox" class="task-checkbox">
         <span>WebDev lab 3</span>
       </label>
+      <button class="copy" onclick="copyItem()">Copy</button>
       <img class="bin" src="bin.png" alt="bin">
     </div>
   </div>
-  <script type="text/javascript" src="to_do.js"></script>
 </div>
+<script type="text/javascript" src="to_do.js"></script>
 
 
 </body>
