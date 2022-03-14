@@ -37,8 +37,7 @@ import {ShippingComponent} from "./shipping/shipping.component";
     AppComponent
   ]
 })
-export class AppModule {
-    }
+export class AppModule {}
 
 
 
