@@ -37,4 +37,5 @@ export class AlbumsService {
   getAlbumPhotos(id: number): Observable<Photos[]> {
     return this.client.get<Photos[]>(`${this.BASE_URL}/albums/${id}/photos`);
   }
+
 }

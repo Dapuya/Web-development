@@ -6,6 +6,10 @@
     <button (click)="addAlbum()" class="add-button">Add album</button>
   </fieldset>
 
+  <fieldset>
+    <input type="text" [(ngModel)]="searchAlbum" placeholder="Search album">
+  </fieldset>
+
   <ul *ngIf="loaded" class="albums-list">
     <li *ngFor="let album of albums" class="album-entry">
       <span class="album-id">{{album.id}}</span>
@@ -15,4 +19,4 @@
   </ul>
 
   <p *ngIf="!loaded">Loading albums list...</p>
-</div>
+</div>l

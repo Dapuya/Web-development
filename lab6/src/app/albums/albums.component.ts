@@ -11,9 +11,12 @@ export class AlbumsComponent implements OnInit {
   albums!: Album[];
   loaded!: boolean;
   newAlbum: string;
+  searchAlbum: string;
+  filteredAlbum !: Album[];
 
   constructor(private albumsService: AlbumsService) {
     this.newAlbum = '';
+    this.searchAlbum = '';
   }
 
   ngOnInit(): void {
@@ -46,6 +49,5 @@ export class AlbumsComponent implements OnInit {
       console.log('deleted', id);
     });
   }
-
 
 }

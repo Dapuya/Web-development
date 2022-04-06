@@ -1,0 +1,16 @@
+.navigation-bar{
+  display: flex;
+}
+
+
+.navigation-option{
+  padding: 10px;
+  text-decoration: none;
+  color: #2159e5;
+  font-size: 20px;
+
+}
+
+.navigation-option :hover{
+  text-decoration: underline;
+}
