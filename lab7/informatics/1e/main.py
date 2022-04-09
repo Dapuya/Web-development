@@ -21,11 +21,19 @@
 
 
 # c
-def xor(a, b):
-    return a ^ b
+# def xor(a, b):
+#     return a ^ b
+#
+#
+# a = [int(x) for x in input().split()]
+# print(xor(a[0], a[1]))
 
 
-a = [int(x) for x in input().split()]
-print(xor(a[0], a[1]))
+# g
+def power(a, n):
+    return (a**n)
 
+
+a, n = input().split(' ')
+print(power(float(a), int(n)))
 

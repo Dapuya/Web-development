@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c0fbc9b-d6ac-4da1-823e-3fb8d6904b1b" name="Default Changelist" comment="" />
+    <list default="true" id="1c0fbc9b-d6ac-4da1-823e-3fb8d6904b1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/codingbat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/List1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/List2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/Logic1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/Logic2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/String1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/String2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/WarmUp1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingbat/WarmUp2.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/hackerrank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hackerrank/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649157396694</updated>
       <workItem from="1649157413203" duration="557000" />
+      <workItem from="1649320505686" duration="1453000" />
     </task>
     <servers />
   </component>
@@ -62,6 +89,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/1e$main.coverage" NAME="main Coverage Results" MODIFIED="1649157705222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1e$main.coverage" NAME="main Coverage Results" MODIFIED="1649321656514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
